@@ -20,7 +20,7 @@ pipeline {
                 script {
                     sh """
                         echo "hello world"
-                        // sleep 10
+                        # sleep 10
                         env
                         env.Course
                         ${env.Course}
