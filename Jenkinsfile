@@ -4,7 +4,7 @@ pipeline {
         Course = "joindevops"
     }
     options {
-        timeout(time: 5, unit: "MINUTES")
+        timeout(time: 5, unit: "SECONDS")
         disableConcurrentBuilds()
     }
     parameters{
@@ -20,7 +20,7 @@ pipeline {
                 script {
                     sh """
                         echo "hello world"
-                        # sleep 10
+                        sleep 10
                          echo "${env.Course}"
                         echo "hello ${params.PERSON}"
                         """
