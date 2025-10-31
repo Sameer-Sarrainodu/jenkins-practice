@@ -37,7 +37,7 @@ pipeline {
         stage("deploy") {
             input {
                 message "should we cont"
-                ok "yes"
+                ok "approve"
                 submitter "admin"
                 parameters {
                     string(name: 'PERSON', defaultValue: 'sameer')
