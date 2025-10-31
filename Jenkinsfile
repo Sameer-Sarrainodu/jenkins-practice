@@ -22,7 +22,6 @@ pipeline {
                         echo "hello world"
                         # sleep 10
                         env
-                        env.Course
                         ${env.Course}
                         echo "hello ${params.PERSON}"
                         """
