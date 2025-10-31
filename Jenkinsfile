@@ -24,7 +24,7 @@ pipeline {
                         env
                         env.Course
                         ${env.Course}
-                        echo "hello ${param.PERSON}"
+                        echo "hello ${params.PERSON}"
                         """
                 }
             }
