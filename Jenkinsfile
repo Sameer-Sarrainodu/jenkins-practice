@@ -21,7 +21,6 @@ pipeline {
                     sh """
                         echo "hello world"
                         # sleep 10
-                        env
                          echo "${env.Course}"
                         echo "hello ${params.PERSON}"
                         """
