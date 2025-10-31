@@ -4,7 +4,7 @@ pipeline {
         Course = "joindevops"
     }
     options {
-        timeout(time: 5, unit: "SECONDS")
+        timeout(time: 5, unit: "MINUTES")
         disableConcurrentBuilds()
     }
     parameters{
