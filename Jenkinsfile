@@ -38,7 +38,7 @@ pipeline {
             input {
                 message "should we cont"
                 ok "yes"
-                submitter "stopped"
+                submitter "admin"
                 parameters {
                     string(name: 'PERSON', defaultValue: 'sameer')
                 }
